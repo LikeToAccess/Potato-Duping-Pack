@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "|INJECT|"
+        },
+        {
+            "item": "minecraft:poisonous_potato"
+        }
+    ],
+    "result": {
+        "item": "|INJECT|",
+        "count": |COUNT INJECT|
+    }
+}
