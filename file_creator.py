@@ -4,6 +4,7 @@ CREDIT: Rico Alexander, cheelo21
 """
 import os, blacklist
 from string import digits
+from time import sleep
 
 item_counts = {
 	32:[],
@@ -50,7 +51,7 @@ print("\n"+("#"*50+"\n")*3)
 
 for c, line in enumerate(data):
 	for item in blacklist.item_counts32:
-		if "minecraft:"+item == line[1:][::-1][1:][::-1]:
+		if "(minecraft:"+item+")" == line:
 			print("Changed: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
 			print("to: \"32\" from kwarg: \"{}\"".format(item))
 			item_counts[32].append(item)
@@ -95,7 +96,7 @@ for filename in filenames:
 			line = line.replace("|INJECT|", filename)
 		if "|COUNT INJECT|" in line:
 			for item_count in item_counts[32]:
-				if item_count in filename:
+				if "minecraft:"+item_count == filename:
 					line = line.replace("|COUNT INJECT|", "32")
 			for item_count in item_counts[16]:
 				if item_count in filename:
