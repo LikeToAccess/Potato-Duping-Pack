@@ -31,7 +31,8 @@ for c, line in enumerate(data):
 for i in range(100):
 	for c, line in enumerate(data):
 		for item in blacklist.blacklist:
-			if item == line.strip(")")[11:]:
+			#                                                            \/ BAD
+			if item == line.strip(")")[11:] and blacklist.whitelist_fuzzy[0] not in line.strip(")")[11:]:
 				print("Banned: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
 				print("from: \"blacklist\" and kwarg: \"{}\"".format(item))
 				data.pop(c)
@@ -40,7 +41,8 @@ for i in range(100):
 for i in range(100):
 	for c, line in enumerate(data):
 		for item in blacklist.blacklist_fuzzy:
-			if item in line.strip(")")[11:]:
+			#                                                            \/ BAD
+			if item in line.strip(")")[11:] and blacklist.whitelist_fuzzy[0] not in line.strip(")")[11:]:
 				print("Banned: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
 				print("from: \"blacklist_fuzzy\" and kwarg: \"{}\"".format(item))
 				data.pop(c)
