@@ -14,13 +14,17 @@ blacklist_fuzzy = [
 	"_anvil","gold","boat"
 ]
 
+whitelist_fuzzy = [
+	"apple"
+]
+
 item_counts32 = [
 	"emerald"
 ]
 
 item_counts16_fuzzy = [
 	"egg","ender_pearl","snowball","bucket","honey_bottle",
-	"_banners","_sign","beacon","nether_star","end_crystal",
+	"_banner","_sign","beacon","nether_star","end_crystal",
 	"armor_stand","redstone_block","iron_block","ender_chest",
 	"_ore","name_tag","phantom_membrane"
 ]
@@ -37,9 +41,11 @@ if __name__ == "__main__":
 		"""
 		Blacklists: \"{}\", \"{}\"
 		Blacklists (fuzzy): \"{}\", \"{}\", \"{}\", \"{}\"
+		Whitelists (fuzzy): \"{}\"
 		""".replace("\t","").format(
 			blacklist,item_counts32,
 			blacklist_fuzzy,item_counts16_fuzzy,
-			item_counts8_fuzzy,item_counts3_fuzzy
+			item_counts8_fuzzy,item_counts3_fuzzy,
+			whitelist_fuzzy
 		)
 	)
