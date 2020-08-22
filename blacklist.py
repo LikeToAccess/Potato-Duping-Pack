@@ -30,7 +30,7 @@ item_counts16_fuzzy = [
 ]
 item_counts8_fuzzy = [
 	"conduit","lapis_block","emerald_block","diamond_block",
-	"sea_pickle"
+	"sea_pickle","wither_rose"
 ]
 item_counts3_fuzzy = [
 	"totem_of_undying","experience_bottle","emerald_block"
