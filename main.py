@@ -17,6 +17,10 @@ item_counts = {
 	8:[],
 	3:[]
 }
+item_counts_inversed = {
+	64:[],
+	32:[]
+}
 
 #################################################
 
@@ -57,6 +61,16 @@ print("\n"+("#"*50+"\n")*3)
 ################################################
 
 for c, line in enumerate(data):
+	for item in blacklist.item_counts_inverse64_fuzzy:
+		if item in line.strip(")")[11:]:
+			print("Changed: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
+			print("to: \"2\" from kwarg: \"{}\"".format(item))
+			item_counts_inversed[64].append(item)
+	for item in blacklist.item_counts_inverse32_fuzzy:
+		if item in line.strip(")")[11:]:
+			print("Changed: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
+			print("to: \"2\" from kwarg: \"{}\"".format(item))
+			item_counts_inversed[32].append(item)
 	for item in blacklist.item_counts32:
 		if "(minecraft:"+item+")" == line:
 			print("Changed: \"{0}\"".format(data[c].strip(")")[11:]),end=" ")
@@ -101,6 +115,15 @@ for filename in filenames:
 	for line in template:
 		if "|INJECT|" in line:
 			line = line.replace("|INJECT|", filename)
+		if "|INGREDIENT COUNT INJECT|" in line:
+			for item_count in item_counts_inversed[64]:
+				if item_count in filename:
+					line = line.replace("|INGREDIENT COUNT INJECT|", "64")
+			for item_count in item_counts_inversed[32]:
+				if item_count in filename:
+					line = line.replace("|INGREDIENT COUNT INJECT|", "32")
+		if "|INGREDIENT COUNT INJECT|" in line:
+				line = line.replace("|INGREDIENT COUNT INJECT|", "1")
 		if "|COUNT INJECT|" in line:
 			for item_count in item_counts[32]:
 				if "minecraft:"+item_count == filename:
@@ -114,7 +137,12 @@ for filename in filenames:
 			for item_count in item_counts[3]:
 				if item_count in filename:
 					line = line.replace("|COUNT INJECT|", "3")
-
+			for item_count in item_counts_inversed[64]:
+				if item_count in filename:
+					line = line.replace("|COUNT INJECT|", "2")
+			for item_count in item_counts_inversed[32]:
+				if item_count in filename:
+					line = line.replace("|COUNT INJECT|", "2")
 		if "|COUNT INJECT|" in line:
 			line = line.replace("|COUNT INJECT|", "64")
 		data.append(line)

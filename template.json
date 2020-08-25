@@ -5,7 +5,8 @@
             "item": "|INJECT|"
         },
         {
-            "item": "minecraft:poisonous_potato"
+            "item": "minecraft:poisonous_potato",
+            "count": |INGREDIENT COUNT INJECT|
         }
     ],
     "result": {
