@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:stone_brick_stairs",
+        "id": "minecraft:stone_brick_stairs",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:purpur_pillar",
+        "id": "minecraft:purpur_pillar",
         "count": 64
     },
     "group": "potato_duplication"

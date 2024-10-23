@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:birch_sign",
+        "id": "minecraft:birch_sign",
         "count": 16
     },
     "group": "potato_duplication"

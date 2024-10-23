@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_sign",
+        "id": "minecraft:mangrove_sign",
         "count": 16
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lodestone",
+        "id": "minecraft:lodestone",
         "count": 8
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_fence",
+        "id": "minecraft:crimson_fence",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_wood",
+        "id": "minecraft:spruce_wood",
         "count": 64
     },
     "group": "potato_duplication"

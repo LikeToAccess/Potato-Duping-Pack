@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wheat_seeds",
+        "id": "minecraft:wheat_seeds",
         "count": 64
     },
     "group": "potato_duplication"

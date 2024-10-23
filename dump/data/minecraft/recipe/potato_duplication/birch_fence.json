@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:birch_fence",
+        "id": "minecraft:birch_fence",
         "count": 64
     },
     "group": "potato_duplication"

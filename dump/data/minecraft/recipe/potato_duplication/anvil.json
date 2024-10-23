@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:anvil",
+        "id": "minecraft:anvil",
         "count": 64
     },
     "group": "potato_duplication"

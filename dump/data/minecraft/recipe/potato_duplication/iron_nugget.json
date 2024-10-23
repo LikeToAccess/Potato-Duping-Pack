@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:iron_nugget",
+        "id": "minecraft:iron_nugget",
         "count": 64
     },
     "group": "potato_duplication"

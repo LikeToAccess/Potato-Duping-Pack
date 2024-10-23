@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dead_tube_coral",
+        "id": "minecraft:dead_tube_coral",
         "count": 64
     },
     "group": "potato_duplication"

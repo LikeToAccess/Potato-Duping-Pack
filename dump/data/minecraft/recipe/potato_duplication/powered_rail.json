@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:powered_rail",
+        "id": "minecraft:powered_rail",
         "count": 64
     },
     "group": "potato_duplication"

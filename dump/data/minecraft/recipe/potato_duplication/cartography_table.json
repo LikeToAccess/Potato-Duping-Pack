@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cartography_table",
+        "id": "minecraft:cartography_table",
         "count": 64
     },
     "group": "potato_duplication"

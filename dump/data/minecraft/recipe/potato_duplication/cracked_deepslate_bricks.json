@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cracked_deepslate_bricks",
+        "id": "minecraft:cracked_deepslate_bricks",
         "count": 64
     },
     "group": "potato_duplication"

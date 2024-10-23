@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spore_blossom",
+        "id": "minecraft:spore_blossom",
         "count": 64
     },
     "group": "potato_duplication"

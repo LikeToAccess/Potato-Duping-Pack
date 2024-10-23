@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:trader_llama_spawn_egg",
+        "id": "minecraft:trader_llama_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

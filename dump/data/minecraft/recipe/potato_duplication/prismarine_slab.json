@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:prismarine_slab",
+        "id": "minecraft:prismarine_slab",
         "count": 64
     },
     "group": "potato_duplication"

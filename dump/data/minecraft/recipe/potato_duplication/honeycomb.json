@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:honeycomb",
+        "id": "minecraft:honeycomb",
         "count": 64
     },
     "group": "potato_duplication"

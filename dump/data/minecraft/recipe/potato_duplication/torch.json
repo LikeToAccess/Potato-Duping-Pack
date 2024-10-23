@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:torch",
+        "id": "minecraft:torch",
         "count": 64
     },
     "group": "potato_duplication"

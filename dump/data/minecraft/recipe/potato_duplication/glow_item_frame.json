@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glow_item_frame",
+        "id": "minecraft:glow_item_frame",
         "count": 64
     },
     "group": "potato_duplication"

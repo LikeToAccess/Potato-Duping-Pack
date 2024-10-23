@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glow_squid_spawn_egg",
+        "id": "minecraft:glow_squid_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

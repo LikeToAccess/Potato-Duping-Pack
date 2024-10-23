@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_sandstone_stairs",
+        "id": "minecraft:red_sandstone_stairs",
         "count": 64
     },
     "group": "potato_duplication"

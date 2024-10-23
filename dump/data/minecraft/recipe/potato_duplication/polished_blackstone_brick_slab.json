@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:polished_blackstone_brick_slab",
+        "id": "minecraft:polished_blackstone_brick_slab",
         "count": 64
     },
     "group": "potato_duplication"

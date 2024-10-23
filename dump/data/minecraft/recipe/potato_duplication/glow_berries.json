@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glow_berries",
+        "id": "minecraft:glow_berries",
         "count": 64
     },
     "group": "potato_duplication"

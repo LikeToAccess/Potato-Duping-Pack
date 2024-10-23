@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glowstone_dust",
+        "id": "minecraft:glowstone_dust",
         "count": 64
     },
     "group": "potato_duplication"

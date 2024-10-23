@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:stripped_birch_wood",
+        "id": "minecraft:stripped_birch_wood",
         "count": 64
     },
     "group": "potato_duplication"

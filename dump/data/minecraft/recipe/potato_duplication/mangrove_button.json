@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_button",
+        "id": "minecraft:mangrove_button",
         "count": 64
     },
     "group": "potato_duplication"

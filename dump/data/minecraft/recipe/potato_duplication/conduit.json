@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:conduit",
+        "id": "minecraft:conduit",
         "count": 8
     },
     "group": "potato_duplication"

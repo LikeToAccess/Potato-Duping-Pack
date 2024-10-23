@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:andesite_slab",
+        "id": "minecraft:andesite_slab",
         "count": 64
     },
     "group": "potato_duplication"

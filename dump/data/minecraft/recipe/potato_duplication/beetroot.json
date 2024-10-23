@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:beetroot",
+        "id": "minecraft:beetroot",
         "count": 64
     },
     "group": "potato_duplication"

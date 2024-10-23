@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:polished_diorite_stairs",
+        "id": "minecraft:polished_diorite_stairs",
         "count": 64
     },
     "group": "potato_duplication"

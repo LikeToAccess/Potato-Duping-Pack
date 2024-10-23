@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_candle",
+        "id": "minecraft:red_candle",
         "count": 64
     },
     "group": "potato_duplication"

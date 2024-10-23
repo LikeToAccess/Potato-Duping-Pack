@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:pufferfish",
+        "id": "minecraft:pufferfish",
         "count": 64
     },
     "group": "potato_duplication"

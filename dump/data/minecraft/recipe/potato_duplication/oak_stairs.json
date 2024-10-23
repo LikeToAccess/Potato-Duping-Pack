@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:oak_stairs",
+        "id": "minecraft:oak_stairs",
         "count": 64
     },
     "group": "potato_duplication"

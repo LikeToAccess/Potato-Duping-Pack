@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sponge",
+        "id": "minecraft:sponge",
         "count": 64
     },
     "group": "potato_duplication"

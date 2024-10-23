@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spider_eye",
+        "id": "minecraft:spider_eye",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spawner",
+        "id": "minecraft:spawner",
         "count": 2
     },
     "group": "potato_duplication"

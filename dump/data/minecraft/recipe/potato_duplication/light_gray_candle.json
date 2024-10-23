@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:light_gray_candle",
+        "id": "minecraft:light_gray_candle",
         "count": 64
     },
     "group": "potato_duplication"

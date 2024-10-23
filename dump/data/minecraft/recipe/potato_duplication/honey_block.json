@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:honey_block",
+        "id": "minecraft:honey_block",
         "count": 64
     },
     "group": "potato_duplication"

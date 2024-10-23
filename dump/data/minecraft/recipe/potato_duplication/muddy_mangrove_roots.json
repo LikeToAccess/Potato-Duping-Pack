@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:muddy_mangrove_roots",
+        "id": "minecraft:muddy_mangrove_roots",
         "count": 64
     },
     "group": "potato_duplication"

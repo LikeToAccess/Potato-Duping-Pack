@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:deepslate_lapis_ore",
+        "id": "minecraft:deepslate_lapis_ore",
         "count": 16
     },
     "group": "potato_duplication"

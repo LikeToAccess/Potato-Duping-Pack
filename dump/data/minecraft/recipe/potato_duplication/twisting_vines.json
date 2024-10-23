@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:twisting_vines",
+        "id": "minecraft:twisting_vines",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:scaffolding",
+        "id": "minecraft:scaffolding",
         "count": 64
     },
     "group": "potato_duplication"

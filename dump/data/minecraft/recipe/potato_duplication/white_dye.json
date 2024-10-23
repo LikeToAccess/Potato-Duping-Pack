@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:white_dye",
+        "id": "minecraft:white_dye",
         "count": 64
     },
     "group": "potato_duplication"

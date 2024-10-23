@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:magenta_dye",
+        "id": "minecraft:magenta_dye",
         "count": 64
     },
     "group": "potato_duplication"

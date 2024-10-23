@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:smoker",
+        "id": "minecraft:smoker",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:medium_amethyst_bud",
+        "id": "minecraft:medium_amethyst_bud",
         "count": 64
     },
     "group": "potato_duplication"

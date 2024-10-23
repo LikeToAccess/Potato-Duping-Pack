@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:ender_pearl",
+        "id": "minecraft:ender_pearl",
         "count": 16
     },
     "group": "potato_duplication"

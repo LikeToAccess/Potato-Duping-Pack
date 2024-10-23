@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:nether_brick_fence",
+        "id": "minecraft:nether_brick_fence",
         "count": 64
     },
     "group": "potato_duplication"

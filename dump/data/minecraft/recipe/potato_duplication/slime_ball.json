@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:slime_ball",
+        "id": "minecraft:slime_ball",
         "count": 64
     },
     "group": "potato_duplication"

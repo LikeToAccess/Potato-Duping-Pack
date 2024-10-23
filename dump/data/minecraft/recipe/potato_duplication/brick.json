@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brick",
+        "id": "minecraft:brick",
         "count": 64
     },
     "group": "potato_duplication"

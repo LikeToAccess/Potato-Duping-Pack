@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cookie",
+        "id": "minecraft:cookie",
         "count": 64
     },
     "group": "potato_duplication"

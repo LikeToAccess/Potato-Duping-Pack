@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_stem",
+        "id": "minecraft:warped_stem",
         "count": 64
     },
     "group": "potato_duplication"

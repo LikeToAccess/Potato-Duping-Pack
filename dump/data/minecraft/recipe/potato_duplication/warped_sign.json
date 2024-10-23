@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_sign",
+        "id": "minecraft:warped_sign",
         "count": 16
     },
     "group": "potato_duplication"

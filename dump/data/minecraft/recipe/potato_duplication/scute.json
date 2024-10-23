@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:scute",
+        "id": "minecraft:scute",
         "count": 64
     },
     "group": "potato_duplication"

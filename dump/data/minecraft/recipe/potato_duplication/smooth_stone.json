@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:smooth_stone",
+        "id": "minecraft:smooth_stone",
         "count": 64
     },
     "group": "potato_duplication"

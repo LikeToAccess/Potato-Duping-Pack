@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:big_dripleaf",
+        "id": "minecraft:big_dripleaf",
         "count": 64
     },
     "group": "potato_duplication"

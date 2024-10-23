@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:chiseled_nether_bricks",
+        "id": "minecraft:chiseled_nether_bricks",
         "count": 64
     },
     "group": "potato_duplication"

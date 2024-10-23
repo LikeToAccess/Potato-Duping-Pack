@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_wood",
+        "id": "minecraft:jungle_wood",
         "count": 64
     },
     "group": "potato_duplication"

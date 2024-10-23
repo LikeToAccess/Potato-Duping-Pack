@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_fence_gate",
+        "id": "minecraft:spruce_fence_gate",
         "count": 64
     },
     "group": "potato_duplication"

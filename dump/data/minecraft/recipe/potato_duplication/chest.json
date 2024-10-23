@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:chest",
+        "id": "minecraft:chest",
         "count": 64
     },
     "group": "potato_duplication"

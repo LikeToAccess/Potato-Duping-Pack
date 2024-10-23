@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lead",
+        "id": "minecraft:lead",
         "count": 64
     },
     "group": "potato_duplication"

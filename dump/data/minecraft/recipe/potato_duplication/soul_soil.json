@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:soul_soil",
+        "id": "minecraft:soul_soil",
         "count": 64
     },
     "group": "potato_duplication"

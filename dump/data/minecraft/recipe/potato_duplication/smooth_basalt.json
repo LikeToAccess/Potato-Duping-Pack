@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:smooth_basalt",
+        "id": "minecraft:smooth_basalt",
         "count": 64
     },
     "group": "potato_duplication"

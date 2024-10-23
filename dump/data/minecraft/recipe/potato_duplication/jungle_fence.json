@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_fence",
+        "id": "minecraft:jungle_fence",
         "count": 64
     },
     "group": "potato_duplication"

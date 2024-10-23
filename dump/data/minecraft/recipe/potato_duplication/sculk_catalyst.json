@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sculk_catalyst",
+        "id": "minecraft:sculk_catalyst",
         "count": 64
     },
     "group": "potato_duplication"

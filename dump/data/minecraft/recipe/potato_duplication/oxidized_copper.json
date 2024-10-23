@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:oxidized_copper",
+        "id": "minecraft:oxidized_copper",
         "count": 64
     },
     "group": "potato_duplication"

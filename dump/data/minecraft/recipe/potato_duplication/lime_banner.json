@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lime_banner",
+        "id": "minecraft:lime_banner",
         "count": 16
     },
     "group": "potato_duplication"

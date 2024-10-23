@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_button",
+        "id": "minecraft:warped_button",
         "count": 64
     },
     "group": "potato_duplication"

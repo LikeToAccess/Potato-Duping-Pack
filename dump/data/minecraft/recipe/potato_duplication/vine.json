@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:vine",
+        "id": "minecraft:vine",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:respawn_anchor",
+        "id": "minecraft:respawn_anchor",
         "count": 16
     },
     "group": "potato_duplication"

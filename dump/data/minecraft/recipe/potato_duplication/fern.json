@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:fern",
+        "id": "minecraft:fern",
         "count": 64
     },
     "group": "potato_duplication"

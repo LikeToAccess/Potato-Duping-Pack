@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:echo_shard",
+        "id": "minecraft:echo_shard",
         "count": 64
     },
     "group": "potato_duplication"

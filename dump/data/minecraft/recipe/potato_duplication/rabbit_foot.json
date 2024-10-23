@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:rabbit_foot",
+        "id": "minecraft:rabbit_foot",
         "count": 64
     },
     "group": "potato_duplication"

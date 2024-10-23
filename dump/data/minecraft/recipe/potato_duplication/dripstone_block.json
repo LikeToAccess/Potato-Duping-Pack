@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dripstone_block",
+        "id": "minecraft:dripstone_block",
         "count": 64
     },
     "group": "potato_duplication"

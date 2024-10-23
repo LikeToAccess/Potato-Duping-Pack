@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:oak_leaves",
+        "id": "minecraft:oak_leaves",
         "count": 64
     },
     "group": "potato_duplication"

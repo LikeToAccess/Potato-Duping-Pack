@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:orange_concrete",
+        "id": "minecraft:orange_concrete",
         "count": 64
     },
     "group": "potato_duplication"

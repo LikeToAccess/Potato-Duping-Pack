@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:diorite_wall",
+        "id": "minecraft:diorite_wall",
         "count": 64
     },
     "group": "potato_duplication"

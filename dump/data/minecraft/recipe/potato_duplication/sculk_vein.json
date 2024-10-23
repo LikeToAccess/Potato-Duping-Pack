@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sculk_vein",
+        "id": "minecraft:sculk_vein",
         "count": 64
     },
     "group": "potato_duplication"

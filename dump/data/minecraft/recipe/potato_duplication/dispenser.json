@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dispenser",
+        "id": "minecraft:dispenser",
         "count": 64
     },
     "group": "potato_duplication"

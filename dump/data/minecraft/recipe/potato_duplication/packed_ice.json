@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:packed_ice",
+        "id": "minecraft:packed_ice",
         "count": 64
     },
     "group": "potato_duplication"

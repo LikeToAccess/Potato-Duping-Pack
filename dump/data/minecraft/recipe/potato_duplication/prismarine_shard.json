@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:prismarine_shard",
+        "id": "minecraft:prismarine_shard",
         "count": 64
     },
     "group": "potato_duplication"

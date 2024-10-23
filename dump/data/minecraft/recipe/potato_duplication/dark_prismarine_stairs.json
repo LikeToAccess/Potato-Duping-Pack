@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_prismarine_stairs",
+        "id": "minecraft:dark_prismarine_stairs",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sandstone_slab",
+        "id": "minecraft:sandstone_slab",
         "count": 64
     },
     "group": "potato_duplication"

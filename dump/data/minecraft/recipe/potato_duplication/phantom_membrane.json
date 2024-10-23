@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:phantom_membrane",
+        "id": "minecraft:phantom_membrane",
         "count": 16
     },
     "group": "potato_duplication"

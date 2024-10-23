@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:basalt",
+        "id": "minecraft:basalt",
         "count": 64
     },
     "group": "potato_duplication"

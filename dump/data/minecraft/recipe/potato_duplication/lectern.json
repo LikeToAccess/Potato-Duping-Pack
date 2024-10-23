@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lectern",
+        "id": "minecraft:lectern",
         "count": 64
     },
     "group": "potato_duplication"

@@ -247,7 +247,7 @@ def write_item_to_json_file(item: Item, path: str = "."):
 			}
 		],
 		"result": {
-			"item": item.namespace_id,
+			"id": item.namespace_id,
 			"count": item.stackability
 		},
 		"group": "potato_duplication"

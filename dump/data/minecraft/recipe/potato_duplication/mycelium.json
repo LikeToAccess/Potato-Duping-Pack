@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mycelium",
+        "id": "minecraft:mycelium",
         "count": 64
     },
     "group": "potato_duplication"

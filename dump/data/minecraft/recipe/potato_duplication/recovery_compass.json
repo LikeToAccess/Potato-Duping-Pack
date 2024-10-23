@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:recovery_compass",
+        "id": "minecraft:recovery_compass",
         "count": 64
     },
     "group": "potato_duplication"

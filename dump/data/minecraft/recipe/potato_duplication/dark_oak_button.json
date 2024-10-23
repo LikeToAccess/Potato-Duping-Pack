@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_oak_button",
+        "id": "minecraft:dark_oak_button",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:baked_potato",
+        "id": "minecraft:baked_potato",
         "count": 64
     },
     "group": "potato_duplication"

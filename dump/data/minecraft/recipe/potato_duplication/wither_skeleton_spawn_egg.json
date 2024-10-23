@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wither_skeleton_spawn_egg",
+        "id": "minecraft:wither_skeleton_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

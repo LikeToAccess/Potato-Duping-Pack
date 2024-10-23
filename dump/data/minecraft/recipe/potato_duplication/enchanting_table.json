@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:enchanting_table",
+        "id": "minecraft:enchanting_table",
         "count": 64
     },
     "group": "potato_duplication"

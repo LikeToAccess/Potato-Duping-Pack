@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glass_bottle",
+        "id": "minecraft:glass_bottle",
         "count": 64
     },
     "group": "potato_duplication"

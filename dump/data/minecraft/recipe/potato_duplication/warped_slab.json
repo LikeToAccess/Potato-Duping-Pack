@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_slab",
+        "id": "minecraft:warped_slab",
         "count": 64
     },
     "group": "potato_duplication"

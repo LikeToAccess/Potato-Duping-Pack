@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sculk_shrieker",
+        "id": "minecraft:sculk_shrieker",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:horn_coral",
+        "id": "minecraft:horn_coral",
         "count": 64
     },
     "group": "potato_duplication"

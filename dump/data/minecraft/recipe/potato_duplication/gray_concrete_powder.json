@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:gray_concrete_powder",
+        "id": "minecraft:gray_concrete_powder",
         "count": 64
     },
     "group": "potato_duplication"

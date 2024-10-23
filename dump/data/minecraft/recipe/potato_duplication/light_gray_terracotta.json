@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:light_gray_terracotta",
+        "id": "minecraft:light_gray_terracotta",
         "count": 64
     },
     "group": "potato_duplication"

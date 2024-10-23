@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_sand",
+        "id": "minecraft:red_sand",
         "count": 64
     },
     "group": "potato_duplication"

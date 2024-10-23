@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:rotten_flesh",
+        "id": "minecraft:rotten_flesh",
         "count": 64
     },
     "group": "potato_duplication"

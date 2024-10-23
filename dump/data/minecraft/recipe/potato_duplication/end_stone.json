@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:end_stone",
+        "id": "minecraft:end_stone",
         "count": 64
     },
     "group": "potato_duplication"

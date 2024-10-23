@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:purple_carpet",
+        "id": "minecraft:purple_carpet",
         "count": 64
     },
     "group": "potato_duplication"

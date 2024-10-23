@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:redstone_lamp",
+        "id": "minecraft:redstone_lamp",
         "count": 64
     },
     "group": "potato_duplication"

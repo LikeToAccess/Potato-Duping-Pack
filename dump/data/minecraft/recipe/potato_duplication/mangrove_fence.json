@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_fence",
+        "id": "minecraft:mangrove_fence",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_log",
+        "id": "minecraft:spruce_log",
         "count": 64
     },
     "group": "potato_duplication"

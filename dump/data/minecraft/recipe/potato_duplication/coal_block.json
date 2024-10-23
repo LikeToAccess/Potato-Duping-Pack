@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:coal_block",
+        "id": "minecraft:coal_block",
         "count": 64
     },
     "group": "potato_duplication"

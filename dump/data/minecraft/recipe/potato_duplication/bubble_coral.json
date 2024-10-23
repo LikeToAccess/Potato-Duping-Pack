@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bubble_coral",
+        "id": "minecraft:bubble_coral",
         "count": 64
     },
     "group": "potato_duplication"

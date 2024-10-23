@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dark_oak_sign",
+        "id": "minecraft:dark_oak_sign",
         "count": 16
     },
     "group": "potato_duplication"

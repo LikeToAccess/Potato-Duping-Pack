@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:beacon",
+        "id": "minecraft:beacon",
         "count": 16
     },
     "group": "potato_duplication"

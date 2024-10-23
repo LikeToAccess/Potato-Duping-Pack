@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:iron_block",
+        "id": "minecraft:iron_block",
         "count": 16
     },
     "group": "potato_duplication"

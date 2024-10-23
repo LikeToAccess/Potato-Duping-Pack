@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:amethyst_cluster",
+        "id": "minecraft:amethyst_cluster",
         "count": 64
     },
     "group": "potato_duplication"

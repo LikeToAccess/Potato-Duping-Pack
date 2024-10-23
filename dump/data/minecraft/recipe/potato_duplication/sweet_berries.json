@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sweet_berries",
+        "id": "minecraft:sweet_berries",
         "count": 64
     },
     "group": "potato_duplication"

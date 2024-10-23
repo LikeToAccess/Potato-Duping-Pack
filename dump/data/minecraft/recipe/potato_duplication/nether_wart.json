@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:nether_wart",
+        "id": "minecraft:nether_wart",
         "count": 64
     },
     "group": "potato_duplication"

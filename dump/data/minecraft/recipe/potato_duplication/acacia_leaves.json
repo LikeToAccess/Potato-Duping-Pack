@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:acacia_leaves",
+        "id": "minecraft:acacia_leaves",
         "count": 64
     },
     "group": "potato_duplication"

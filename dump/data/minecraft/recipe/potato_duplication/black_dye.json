@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:black_dye",
+        "id": "minecraft:black_dye",
         "count": 64
     },
     "group": "potato_duplication"

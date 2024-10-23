@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:ghast_tear",
+        "id": "minecraft:ghast_tear",
         "count": 64
     },
     "group": "potato_duplication"

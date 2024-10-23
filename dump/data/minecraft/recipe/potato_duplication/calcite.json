@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:calcite",
+        "id": "minecraft:calcite",
         "count": 64
     },
     "group": "potato_duplication"

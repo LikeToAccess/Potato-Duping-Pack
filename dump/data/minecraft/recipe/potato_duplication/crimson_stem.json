@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_stem",
+        "id": "minecraft:crimson_stem",
         "count": 64
     },
     "group": "potato_duplication"

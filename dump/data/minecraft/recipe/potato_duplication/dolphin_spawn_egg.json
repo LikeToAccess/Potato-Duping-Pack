@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dolphin_spawn_egg",
+        "id": "minecraft:dolphin_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

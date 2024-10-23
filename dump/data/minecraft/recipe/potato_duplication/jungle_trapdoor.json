@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_trapdoor",
+        "id": "minecraft:jungle_trapdoor",
         "count": 64
     },
     "group": "potato_duplication"

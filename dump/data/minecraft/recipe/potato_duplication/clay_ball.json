@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:clay_ball",
+        "id": "minecraft:clay_ball",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:pink_concrete",
+        "id": "minecraft:pink_concrete",
         "count": 64
     },
     "group": "potato_duplication"

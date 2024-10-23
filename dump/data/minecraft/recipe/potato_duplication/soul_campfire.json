@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:soul_campfire",
+        "id": "minecraft:soul_campfire",
         "count": 64
     },
     "group": "potato_duplication"

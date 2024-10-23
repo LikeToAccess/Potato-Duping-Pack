@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:observer",
+        "id": "minecraft:observer",
         "count": 64
     },
     "group": "potato_duplication"

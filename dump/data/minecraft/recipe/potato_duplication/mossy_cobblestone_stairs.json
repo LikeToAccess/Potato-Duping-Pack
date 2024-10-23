@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mossy_cobblestone_stairs",
+        "id": "minecraft:mossy_cobblestone_stairs",
         "count": 64
     },
     "group": "potato_duplication"

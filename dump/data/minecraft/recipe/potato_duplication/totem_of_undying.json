@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:totem_of_undying",
+        "id": "minecraft:totem_of_undying",
         "count": 2
     },
     "group": "potato_duplication"

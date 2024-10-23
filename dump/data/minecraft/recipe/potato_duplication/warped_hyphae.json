@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_hyphae",
+        "id": "minecraft:warped_hyphae",
         "count": 64
     },
     "group": "potato_duplication"

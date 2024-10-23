@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:honey_bottle",
+        "id": "minecraft:honey_bottle",
         "count": 16
     },
     "group": "potato_duplication"

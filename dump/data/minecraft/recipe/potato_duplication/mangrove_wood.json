@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_wood",
+        "id": "minecraft:mangrove_wood",
         "count": 64
     },
     "group": "potato_duplication"

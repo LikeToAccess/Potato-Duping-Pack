@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:azalea",
+        "id": "minecraft:azalea",
         "count": 64
     },
     "group": "potato_duplication"

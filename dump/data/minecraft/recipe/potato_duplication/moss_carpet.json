@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:moss_carpet",
+        "id": "minecraft:moss_carpet",
         "count": 64
     },
     "group": "potato_duplication"

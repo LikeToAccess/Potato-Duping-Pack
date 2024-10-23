@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:end_stone_brick_stairs",
+        "id": "minecraft:end_stone_brick_stairs",
         "count": 64
     },
     "group": "potato_duplication"

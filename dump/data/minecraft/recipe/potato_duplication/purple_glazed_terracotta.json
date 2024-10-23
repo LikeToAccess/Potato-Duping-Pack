@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:purple_glazed_terracotta",
+        "id": "minecraft:purple_glazed_terracotta",
         "count": 64
     },
     "group": "potato_duplication"

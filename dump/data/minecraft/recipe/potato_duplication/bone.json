@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bone",
+        "id": "minecraft:bone",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:waxed_copper_block",
+        "id": "minecraft:waxed_copper_block",
         "count": 64
     },
     "group": "potato_duplication"

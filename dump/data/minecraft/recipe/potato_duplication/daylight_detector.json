@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:daylight_detector",
+        "id": "minecraft:daylight_detector",
         "count": 64
     },
     "group": "potato_duplication"

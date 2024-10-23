@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sea_lantern",
+        "id": "minecraft:sea_lantern",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sea_pickle",
+        "id": "minecraft:sea_pickle",
         "count": 8
     },
     "group": "potato_duplication"

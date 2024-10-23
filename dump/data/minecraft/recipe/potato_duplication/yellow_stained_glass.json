@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:yellow_stained_glass",
+        "id": "minecraft:yellow_stained_glass",
         "count": 64
     },
     "group": "potato_duplication"

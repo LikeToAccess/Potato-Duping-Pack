@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_cod",
+        "id": "minecraft:cooked_cod",
         "count": 64
     },
     "group": "potato_duplication"

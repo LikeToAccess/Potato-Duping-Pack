@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_sapling",
+        "id": "minecraft:spruce_sapling",
         "count": 64
     },
     "group": "potato_duplication"

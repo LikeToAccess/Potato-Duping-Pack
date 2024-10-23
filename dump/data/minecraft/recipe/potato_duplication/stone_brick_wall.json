@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:stone_brick_wall",
+        "id": "minecraft:stone_brick_wall",
         "count": 64
     },
     "group": "potato_duplication"

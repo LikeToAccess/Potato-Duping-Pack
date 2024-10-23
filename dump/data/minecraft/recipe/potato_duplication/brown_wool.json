@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brown_wool",
+        "id": "minecraft:brown_wool",
         "count": 64
     },
     "group": "potato_duplication"

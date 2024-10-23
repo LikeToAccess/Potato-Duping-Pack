@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:chicken",
+        "id": "minecraft:chicken",
         "count": 64
     },
     "group": "potato_duplication"

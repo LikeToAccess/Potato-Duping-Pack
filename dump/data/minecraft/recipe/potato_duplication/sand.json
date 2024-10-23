@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sand",
+        "id": "minecraft:sand",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_trapdoor",
+        "id": "minecraft:crimson_trapdoor",
         "count": 64
     },
     "group": "potato_duplication"

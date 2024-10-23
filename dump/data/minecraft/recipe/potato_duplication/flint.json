@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:flint",
+        "id": "minecraft:flint",
         "count": 64
     },
     "group": "potato_duplication"

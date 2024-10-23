@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cyan_carpet",
+        "id": "minecraft:cyan_carpet",
         "count": 64
     },
     "group": "potato_duplication"

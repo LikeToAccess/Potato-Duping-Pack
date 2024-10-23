@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brown_banner",
+        "id": "minecraft:brown_banner",
         "count": 16
     },
     "group": "potato_duplication"

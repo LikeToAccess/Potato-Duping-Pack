@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:blackstone",
+        "id": "minecraft:blackstone",
         "count": 64
     },
     "group": "potato_duplication"

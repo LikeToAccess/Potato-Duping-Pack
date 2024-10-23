@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:yellow_dye",
+        "id": "minecraft:yellow_dye",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:moss_block",
+        "id": "minecraft:moss_block",
         "count": 64
     },
     "group": "potato_duplication"

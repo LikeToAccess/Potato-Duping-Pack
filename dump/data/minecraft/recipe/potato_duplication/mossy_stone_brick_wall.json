@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mossy_stone_brick_wall",
+        "id": "minecraft:mossy_stone_brick_wall",
         "count": 64
     },
     "group": "potato_duplication"

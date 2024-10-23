@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:redstone_block",
+        "id": "minecraft:redstone_block",
         "count": 16
     },
     "group": "potato_duplication"

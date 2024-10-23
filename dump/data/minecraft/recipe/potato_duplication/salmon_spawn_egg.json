@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:salmon_spawn_egg",
+        "id": "minecraft:salmon_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

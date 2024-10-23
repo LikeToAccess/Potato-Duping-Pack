@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:small_dripleaf",
+        "id": "minecraft:small_dripleaf",
         "count": 64
     },
     "group": "potato_duplication"

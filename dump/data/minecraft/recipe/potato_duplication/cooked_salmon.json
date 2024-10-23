@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_salmon",
+        "id": "minecraft:cooked_salmon",
         "count": 64
     },
     "group": "potato_duplication"

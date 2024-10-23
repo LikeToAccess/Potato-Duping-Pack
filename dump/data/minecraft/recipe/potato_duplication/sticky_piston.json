@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sticky_piston",
+        "id": "minecraft:sticky_piston",
         "count": 64
     },
     "group": "potato_duplication"

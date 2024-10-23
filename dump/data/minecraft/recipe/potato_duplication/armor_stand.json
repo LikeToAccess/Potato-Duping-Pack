@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:armor_stand",
+        "id": "minecraft:armor_stand",
         "count": 16
     },
     "group": "potato_duplication"

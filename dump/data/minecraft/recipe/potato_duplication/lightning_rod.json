@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lightning_rod",
+        "id": "minecraft:lightning_rod",
         "count": 64
     },
     "group": "potato_duplication"

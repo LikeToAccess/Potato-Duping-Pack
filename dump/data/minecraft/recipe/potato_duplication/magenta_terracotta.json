@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:magenta_terracotta",
+        "id": "minecraft:magenta_terracotta",
         "count": 64
     },
     "group": "potato_duplication"

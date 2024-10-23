@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:nether_brick_stairs",
+        "id": "minecraft:nether_brick_stairs",
         "count": 64
     },
     "group": "potato_duplication"

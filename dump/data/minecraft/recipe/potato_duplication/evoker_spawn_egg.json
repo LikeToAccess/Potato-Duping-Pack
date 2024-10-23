@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:evoker_spawn_egg",
+        "id": "minecraft:evoker_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

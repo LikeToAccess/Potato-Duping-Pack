@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_slab",
+        "id": "minecraft:spruce_slab",
         "count": 64
     },
     "group": "potato_duplication"

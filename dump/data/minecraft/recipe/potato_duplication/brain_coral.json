@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brain_coral",
+        "id": "minecraft:brain_coral",
         "count": 64
     },
     "group": "potato_duplication"

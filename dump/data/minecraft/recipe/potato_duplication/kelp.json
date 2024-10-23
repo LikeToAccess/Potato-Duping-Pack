@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:kelp",
+        "id": "minecraft:kelp",
         "count": 64
     },
     "group": "potato_duplication"

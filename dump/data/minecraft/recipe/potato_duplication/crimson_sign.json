@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_sign",
+        "id": "minecraft:crimson_sign",
         "count": 16
     },
     "group": "potato_duplication"

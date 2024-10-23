@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:ladder",
+        "id": "minecraft:ladder",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:brewing_stand",
+        "id": "minecraft:brewing_stand",
         "count": 64
     },
     "group": "potato_duplication"

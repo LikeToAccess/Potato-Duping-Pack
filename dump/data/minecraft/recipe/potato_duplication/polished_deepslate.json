@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:polished_deepslate",
+        "id": "minecraft:polished_deepslate",
         "count": 64
     },
     "group": "potato_duplication"

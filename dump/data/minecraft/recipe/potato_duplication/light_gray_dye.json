@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:light_gray_dye",
+        "id": "minecraft:light_gray_dye",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:polished_blackstone_stairs",
+        "id": "minecraft:polished_blackstone_stairs",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:blue_ice",
+        "id": "minecraft:blue_ice",
         "count": 64
     },
     "group": "potato_duplication"

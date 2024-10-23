@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:sugar_cane",
+        "id": "minecraft:sugar_cane",
         "count": 64
     },
     "group": "potato_duplication"

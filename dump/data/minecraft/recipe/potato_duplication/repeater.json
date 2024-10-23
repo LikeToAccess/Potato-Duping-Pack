@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:repeater",
+        "id": "minecraft:repeater",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:deepslate_tiles",
+        "id": "minecraft:deepslate_tiles",
         "count": 64
     },
     "group": "potato_duplication"

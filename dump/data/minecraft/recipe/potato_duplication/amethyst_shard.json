@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:amethyst_shard",
+        "id": "minecraft:amethyst_shard",
         "count": 64
     },
     "group": "potato_duplication"

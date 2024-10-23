@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:hopper",
+        "id": "minecraft:hopper",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:soul_torch",
+        "id": "minecraft:soul_torch",
         "count": 64
     },
     "group": "potato_duplication"

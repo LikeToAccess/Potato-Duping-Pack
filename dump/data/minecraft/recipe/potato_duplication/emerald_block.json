@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:emerald_block",
+        "id": "minecraft:emerald_block",
         "count": 3
     },
     "group": "potato_duplication"

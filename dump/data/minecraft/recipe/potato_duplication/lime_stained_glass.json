@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lime_stained_glass",
+        "id": "minecraft:lime_stained_glass",
         "count": 64
     },
     "group": "potato_duplication"

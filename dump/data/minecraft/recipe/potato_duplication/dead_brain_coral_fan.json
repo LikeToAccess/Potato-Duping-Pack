@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dead_brain_coral_fan",
+        "id": "minecraft:dead_brain_coral_fan",
         "count": 64
     },
     "group": "potato_duplication"

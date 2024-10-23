@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:end_crystal",
+        "id": "minecraft:end_crystal",
         "count": 16
     },
     "group": "potato_duplication"

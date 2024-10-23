@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:acacia_stairs",
+        "id": "minecraft:acacia_stairs",
         "count": 64
     },
     "group": "potato_duplication"

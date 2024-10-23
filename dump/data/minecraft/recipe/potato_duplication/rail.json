@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:rail",
+        "id": "minecraft:rail",
         "count": 64
     },
     "group": "potato_duplication"

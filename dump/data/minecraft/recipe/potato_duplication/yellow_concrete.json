@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:yellow_concrete",
+        "id": "minecraft:yellow_concrete",
         "count": 64
     },
     "group": "potato_duplication"

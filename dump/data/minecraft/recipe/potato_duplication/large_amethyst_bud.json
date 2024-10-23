@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:large_amethyst_bud",
+        "id": "minecraft:large_amethyst_bud",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:birch_log",
+        "id": "minecraft:birch_log",
         "count": 64
     },
     "group": "potato_duplication"

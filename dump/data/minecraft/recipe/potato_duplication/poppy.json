@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:poppy",
+        "id": "minecraft:poppy",
         "count": 64
     },
     "group": "potato_duplication"

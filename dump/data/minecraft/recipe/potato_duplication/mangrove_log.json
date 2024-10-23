@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_log",
+        "id": "minecraft:mangrove_log",
         "count": 64
     },
     "group": "potato_duplication"

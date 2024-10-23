@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:oak_slab",
+        "id": "minecraft:oak_slab",
         "count": 64
     },
     "group": "potato_duplication"

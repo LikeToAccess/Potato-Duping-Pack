@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bookshelf",
+        "id": "minecraft:bookshelf",
         "count": 64
     },
     "group": "potato_duplication"

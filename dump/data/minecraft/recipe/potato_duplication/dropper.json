@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:dropper",
+        "id": "minecraft:dropper",
         "count": 64
     },
     "group": "potato_duplication"

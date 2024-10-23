@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:composter",
+        "id": "minecraft:composter",
         "count": 64
     },
     "group": "potato_duplication"

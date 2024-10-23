@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:lime_dye",
+        "id": "minecraft:lime_dye",
         "count": 64
     },
     "group": "potato_duplication"

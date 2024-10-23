@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_sign",
+        "id": "minecraft:jungle_sign",
         "count": 16
     },
     "group": "potato_duplication"

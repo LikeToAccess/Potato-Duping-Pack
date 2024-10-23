@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:carved_pumpkin",
+        "id": "minecraft:carved_pumpkin",
         "count": 64
     },
     "group": "potato_duplication"

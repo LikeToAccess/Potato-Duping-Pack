@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cyan_stained_glass_pane",
+        "id": "minecraft:cyan_stained_glass_pane",
         "count": 64
     },
     "group": "potato_duplication"

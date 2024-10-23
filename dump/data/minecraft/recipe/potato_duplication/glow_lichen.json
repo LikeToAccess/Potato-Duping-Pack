@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:glow_lichen",
+        "id": "minecraft:glow_lichen",
         "count": 64
     },
     "group": "potato_duplication"

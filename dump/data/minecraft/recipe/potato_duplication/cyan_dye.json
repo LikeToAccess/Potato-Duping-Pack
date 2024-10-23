@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cyan_dye",
+        "id": "minecraft:cyan_dye",
         "count": 64
     },
     "group": "potato_duplication"

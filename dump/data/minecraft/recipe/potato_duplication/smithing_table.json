@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:smithing_table",
+        "id": "minecraft:smithing_table",
         "count": 64
     },
     "group": "potato_duplication"

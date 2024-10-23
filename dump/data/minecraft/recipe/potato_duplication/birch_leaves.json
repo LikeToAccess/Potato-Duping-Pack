@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:birch_leaves",
+        "id": "minecraft:birch_leaves",
         "count": 64
     },
     "group": "potato_duplication"

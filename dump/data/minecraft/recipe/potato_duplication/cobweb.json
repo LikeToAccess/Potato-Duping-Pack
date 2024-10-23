@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cobweb",
+        "id": "minecraft:cobweb",
         "count": 64
     },
     "group": "potato_duplication"

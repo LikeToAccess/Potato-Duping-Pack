@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_fence",
+        "id": "minecraft:warped_fence",
         "count": 64
     },
     "group": "potato_duplication"

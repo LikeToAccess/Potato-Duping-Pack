@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:pearlescent_froglight",
+        "id": "minecraft:pearlescent_froglight",
         "count": 64
     },
     "group": "potato_duplication"

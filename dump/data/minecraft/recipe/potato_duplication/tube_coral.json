@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:tube_coral",
+        "id": "minecraft:tube_coral",
         "count": 64
     },
     "group": "potato_duplication"

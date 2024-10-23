@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:deepslate_tile_wall",
+        "id": "minecraft:deepslate_tile_wall",
         "count": 64
     },
     "group": "potato_duplication"

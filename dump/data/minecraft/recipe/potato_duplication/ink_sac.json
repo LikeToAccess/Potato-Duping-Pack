@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:ink_sac",
+        "id": "minecraft:ink_sac",
         "count": 64
     },
     "group": "potato_duplication"

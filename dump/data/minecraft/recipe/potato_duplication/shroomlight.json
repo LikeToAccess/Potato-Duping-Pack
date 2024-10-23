@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:shroomlight",
+        "id": "minecraft:shroomlight",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:smooth_quartz",
+        "id": "minecraft:smooth_quartz",
         "count": 64
     },
     "group": "potato_duplication"

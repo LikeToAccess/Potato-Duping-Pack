@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:snowball",
+        "id": "minecraft:snowball",
         "count": 16
     },
     "group": "potato_duplication"

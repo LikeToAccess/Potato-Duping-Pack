@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_rabbit",
+        "id": "minecraft:cooked_rabbit",
         "count": 64
     },
     "group": "potato_duplication"

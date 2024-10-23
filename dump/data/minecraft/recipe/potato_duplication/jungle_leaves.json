@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_leaves",
+        "id": "minecraft:jungle_leaves",
         "count": 64
     },
     "group": "potato_duplication"

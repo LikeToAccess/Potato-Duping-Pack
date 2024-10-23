@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:loom",
+        "id": "minecraft:loom",
         "count": 64
     },
     "group": "potato_duplication"

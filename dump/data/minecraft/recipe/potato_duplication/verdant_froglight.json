@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:verdant_froglight",
+        "id": "minecraft:verdant_froglight",
         "count": 64
     },
     "group": "potato_duplication"

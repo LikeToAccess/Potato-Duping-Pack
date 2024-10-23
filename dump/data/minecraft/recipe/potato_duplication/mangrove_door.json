@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mangrove_door",
+        "id": "minecraft:mangrove_door",
         "count": 64
     },
     "group": "potato_duplication"

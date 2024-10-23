@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:note_block",
+        "id": "minecraft:note_block",
         "count": 64
     },
     "group": "potato_duplication"

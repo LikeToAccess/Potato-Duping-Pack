@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bee_spawn_egg",
+        "id": "minecraft:bee_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

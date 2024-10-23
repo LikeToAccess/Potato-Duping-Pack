@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:warped_door",
+        "id": "minecraft:warped_door",
         "count": 64
     },
     "group": "potato_duplication"

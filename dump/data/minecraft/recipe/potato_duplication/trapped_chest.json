@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:trapped_chest",
+        "id": "minecraft:trapped_chest",
         "count": 64
     },
     "group": "potato_duplication"

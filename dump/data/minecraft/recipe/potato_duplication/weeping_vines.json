@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:weeping_vines",
+        "id": "minecraft:weeping_vines",
         "count": 64
     },
     "group": "potato_duplication"

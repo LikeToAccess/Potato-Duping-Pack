@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:birch_trapdoor",
+        "id": "minecraft:birch_trapdoor",
         "count": 64
     },
     "group": "potato_duplication"

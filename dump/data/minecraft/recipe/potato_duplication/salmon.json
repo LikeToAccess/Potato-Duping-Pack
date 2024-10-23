@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:salmon",
+        "id": "minecraft:salmon",
         "count": 64
     },
     "group": "potato_duplication"

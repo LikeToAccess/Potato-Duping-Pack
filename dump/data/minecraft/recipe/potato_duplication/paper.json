@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:paper",
+        "id": "minecraft:paper",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:diamond_block",
+        "id": "minecraft:diamond_block",
         "count": 8
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:wither_rose",
+        "id": "minecraft:wither_rose",
         "count": 16
     },
     "group": "potato_duplication"

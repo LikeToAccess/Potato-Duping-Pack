@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:andesite_stairs",
+        "id": "minecraft:andesite_stairs",
         "count": 64
     },
     "group": "potato_duplication"

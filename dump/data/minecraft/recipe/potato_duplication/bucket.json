@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:bucket",
+        "id": "minecraft:bucket",
         "count": 16
     },
     "group": "potato_duplication"

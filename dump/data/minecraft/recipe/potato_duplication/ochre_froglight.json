@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:ochre_froglight",
+        "id": "minecraft:ochre_froglight",
         "count": 64
     },
     "group": "potato_duplication"

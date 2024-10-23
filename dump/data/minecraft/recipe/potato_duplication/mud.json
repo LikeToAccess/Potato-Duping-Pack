@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:mud",
+        "id": "minecraft:mud",
         "count": 64
     },
     "group": "potato_duplication"

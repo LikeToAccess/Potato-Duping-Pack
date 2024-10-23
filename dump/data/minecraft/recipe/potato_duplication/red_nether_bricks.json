@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:red_nether_bricks",
+        "id": "minecraft:red_nether_bricks",
         "count": 64
     },
     "group": "potato_duplication"

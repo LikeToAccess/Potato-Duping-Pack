@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cooked_mutton",
+        "id": "minecraft:cooked_mutton",
         "count": 64
     },
     "group": "potato_duplication"

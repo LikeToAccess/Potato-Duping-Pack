@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:spruce_sign",
+        "id": "minecraft:spruce_sign",
         "count": 16
     },
     "group": "potato_duplication"

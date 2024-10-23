@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:jungle_door",
+        "id": "minecraft:jungle_door",
         "count": 64
     },
     "group": "potato_duplication"

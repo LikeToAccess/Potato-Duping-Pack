@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:tripwire_hook",
+        "id": "minecraft:tripwire_hook",
         "count": 64
     },
     "group": "potato_duplication"

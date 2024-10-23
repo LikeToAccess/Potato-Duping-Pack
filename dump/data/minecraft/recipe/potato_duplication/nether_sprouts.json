@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:nether_sprouts",
+        "id": "minecraft:nether_sprouts",
         "count": 64
     },
     "group": "potato_duplication"

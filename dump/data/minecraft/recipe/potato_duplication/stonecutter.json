@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:stonecutter",
+        "id": "minecraft:stonecutter",
         "count": 64
     },
     "group": "potato_duplication"

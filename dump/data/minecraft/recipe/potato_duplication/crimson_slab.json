@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:crimson_slab",
+        "id": "minecraft:crimson_slab",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:furnace",
+        "id": "minecraft:furnace",
         "count": 64
     },
     "group": "potato_duplication"

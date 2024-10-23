@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cauldron",
+        "id": "minecraft:cauldron",
         "count": 64
     },
     "group": "potato_duplication"

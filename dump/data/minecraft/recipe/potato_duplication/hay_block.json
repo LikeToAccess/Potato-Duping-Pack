@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:hay_block",
+        "id": "minecraft:hay_block",
         "count": 64
     },
     "group": "potato_duplication"

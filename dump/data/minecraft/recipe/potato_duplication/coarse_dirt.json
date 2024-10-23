@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:coarse_dirt",
+        "id": "minecraft:coarse_dirt",
         "count": 64
     },
     "group": "potato_duplication"

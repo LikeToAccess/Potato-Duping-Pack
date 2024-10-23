@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cat_spawn_egg",
+        "id": "minecraft:cat_spawn_egg",
         "count": 2
     },
     "group": "potato_duplication"

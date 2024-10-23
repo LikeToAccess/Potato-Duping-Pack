@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:popped_chorus_fruit",
+        "id": "minecraft:popped_chorus_fruit",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:cobblestone_wall",
+        "id": "minecraft:cobblestone_wall",
         "count": 64
     },
     "group": "potato_duplication"

@@ -10,7 +10,7 @@
         }
     ],
     "result": {
-        "item": "minecraft:obsidian",
+        "id": "minecraft:obsidian",
         "count": 64
     },
     "group": "potato_duplication"
