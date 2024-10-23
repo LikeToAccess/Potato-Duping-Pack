@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:dead_brain_coral_fan"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "minecraft:dead_brain_coral_fan",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

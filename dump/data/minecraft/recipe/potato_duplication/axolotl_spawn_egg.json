@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:axolotl_spawn_egg"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 32
+        }
+    ],
+    "result": {
+        "item": "minecraft:axolotl_spawn_egg",
+        "count": 2
+    },
+    "group": "potato_duplication"
+}

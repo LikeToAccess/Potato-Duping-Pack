@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cut_red_sandstone"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "item": "minecraft:cut_red_sandstone",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

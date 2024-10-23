@@ -27,15 +27,39 @@ class Item(dict):
 			stackability=stackability,
 			obtainable=obtainable,
 			cost=cost)
-		self.name = name
-		self.namespace_id = namespace_id
-		self.id = namespace_id.split(":")[-1]
-		self.stackability = stackability
-		self.obtainable = obtainable
-		self.cost = cost
+		# self.name = name
+		# self.namespace_id = namespace_id
+		# self.id = namespace_id.split(":")[-1]
+		# self.stackability = stackability
+		# self.obtainable = obtainable
+		# self.cost = cost
 
 	def __str__(self):
 		return f"Item(name='{self['name']}', namespace_id='{self['namespace_id']}', stackability={self['stackability']}, obtainable={self['obtainable']}, cost={self['cost']})"
+
+	@property
+	def stackability(self):
+		return self["stackability"]
+
+	@property
+	def name(self):
+		return self["name"]
+
+	@property
+	def namespace_id(self):
+		return self["namespace_id"]
+
+	@property
+	def id(self):
+		return self["namespace_id"].split(":")[-1]
+
+	@property
+	def obtainable(self):
+		return self["obtainable"]
+
+	@property
+	def cost(self):
+		return self["cost"]
 
 
 def get_minecraft_items(url) -> dict[str, Item]:
@@ -210,7 +234,7 @@ def zip_folder(folder_path, zip_path):
 def write_item_to_json_file(item: Item, path: str = "."):
 	filename = item.id +".json"
 	path = os.path.join(path, filename)
-	print(path)
+	# print(path)
 	data = {
 		"type": "crafting_shapeless",
 		"ingredients": [
@@ -240,18 +264,19 @@ def main():
 	# print(minecraft_items)
 	print(len(minecraft_items))
 	print(len(filtered_items))
-	# print("\n".join(list(f"Banned: {item}" for item in minecraft_items.keys() - filtered_items.keys())))
-	# print("\n".join(item.id for _, item in filtered_items.items()))
-	print(filtered_items["Emerald"])
-	print(filtered_items["Ender Pearl"])
-	print(filtered_items["Beacon"])
-	print(filtered_items["Block of Emerald"])
-	print(filtered_items["Warden Spawn Egg"])
-	print(filtered_items["Sponge"])
+	# print(filtered_items["Emerald"])
+	# print(filtered_items["Ender Pearl"])
+	# print(filtered_items["Beacon"])
+	# print(filtered_items["Block of Emerald"])
+	# print(filtered_items["Warden Spawn Egg"])
+	# print(filtered_items["Sponge"])
 	folder = "dump/data/minecraft/recipe/potato_duplication"
 	create_folder(folder)
-	write_item_to_json_file(filtered_items["Sponge"], folder)
+	for _, item in filtered_items.items():
+		print(item)
+		write_item_to_json_file(item, folder)
 	zip_folder(folder.split("/", maxsplit=1)[0], "potato_duping_datapack_v2.zip")
+
 
 
 if __name__ == "__main__":
