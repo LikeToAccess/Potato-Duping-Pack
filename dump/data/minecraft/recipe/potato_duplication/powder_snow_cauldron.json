@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:powder_snow_cauldron"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:powder_snow_cauldron",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

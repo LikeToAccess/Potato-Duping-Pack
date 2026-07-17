@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:trial_spawner"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 64
+        }
+    ],
+    "result": {
+        "id": "minecraft:trial_spawner",
+        "count": 2
+    },
+    "group": "potato_duplication"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:lava_cauldron"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:lava_cauldron",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

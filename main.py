@@ -72,26 +72,66 @@ def get_minecraft_items(url) -> dict[str, Item]:
 	Returns:
 		A set of Minecraft item IDs.
 	"""
+	# Fetch block data
 	response = requests.get(url, timeout=10)
-	response.raise_for_status()  # Raise an exception for bad status codes
+	response.raise_for_status()
+	block_data = json.loads(response.text)
 
-	data = json.loads(response.text)
-	key_list = data["key_list"]
-	item_ids = data["properties"]["id"]["entries"]
-	item_stackability = data["properties"]["stackability"]["entries"]
-	survival_obtainable = data["properties"]["survival_obtainable"]["entries"]
+	# Fetch item data to get stackability and survival_obtainable properties
+	item_url = "https://joakimthorsen.github.io/MCPropertyEncyclopedia/data/item_data.json"
+	item_response = requests.get(item_url, timeout=10)
+	item_response.raise_for_status()
+	item_data = json.loads(item_response.text)
+
+	item_ids = item_data["properties"]["id"]["entries"]
+	item_stackability = item_data["properties"]["stackability"]["entries"]
+	survival_obtainable = item_data["properties"]["survival_obtainable"]["entries"]
+
+	# Build mapping of item namespace ID -> (stackability, obtainable)
+	item_info = {}
+	for item_name, raw_id in item_ids.items():
+		ns_id = "minecraft:" + raw_id
+		stack = item_stackability.get(item_name, 64)
+		if stack == "Unstackable":
+			stack = 1
+		obt = survival_obtainable.get(item_name) != "No"
+		item_info[ns_id] = (stack, obt)
+
+	key_list = block_data["key_list"]
+	block_ids = block_data["properties"]["block_id"]["entries"]
 	items = {}
 	for item in key_list:
-		# items[item] = {
-		# 	"namespace_id": "minecraft:"+ item_ids[item],
-		# 	"stackability": 1 if item_stackability[item] == "Unstackable" else item_stackability[item],
-		# 	"obtainable": survival_obtainable.get(item) != "No"
-		# }
+		if item not in block_ids:
+			continue
+		
+		namespace_id = block_ids[item]
+		
+		if namespace_id in item_info:
+			stackability, obtainable = item_info[namespace_id]
+		else:
+			# Handle new blocks not present in the legacy item database
+			stackability = 64
+			obtainable = True
+			lower_id = namespace_id.lower()
+			if (
+				"wall_" in lower_id
+				or "potted_" in lower_id
+				or ("stem" in lower_id and "crimson_stem" not in lower_id and "warped_stem" not in lower_id)
+				or lower_id in [
+					"minecraft:air", "minecraft:cave_air", "minecraft:void_air", 
+					"minecraft:water", "minecraft:lava", "minecraft:moving_piston", 
+					"minecraft:piston_head", "minecraft:frosted_ice", "minecraft:tripwire", 
+					"minecraft:nether_portal", "minecraft:end_portal", "minecraft:end_gateway", 
+					"minecraft:fire", "minecraft:soul_fire"
+				]
+			):
+				obtainable = False
+
 		items[item] = Item(
 			item,
-			"minecraft:"+ item_ids[item],
-			1 if item_stackability[item] == "Unstackable" else item_stackability[item],
-			survival_obtainable.get(item) != "No")
+			namespace_id,
+			stackability,
+			obtainable)
 
 	return items
 
@@ -127,7 +167,9 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 		"turtle_egg", "flint_and_steel", "saddle", "dragon_egg",
 		"fishing_rod", "shears", "command_block", "spectral_arrow",
 		"barrier", "debug_stick", "structure_block", "ancient_debris",
-		"firework_rocket", "firework_star"
+		"firework_rocket", "firework_star", "moving_piston", "piston_head",
+		"frosted_ice", "tripwire", "fire", "portal", "void_air", "cave_air",
+		"heavy_core", "sniffer_egg", "vault"
 	]
 	blacklist_fuzzy = [
 		"netherite", "music_disc", "potion", "_helmet",
@@ -135,7 +177,7 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 		"_horse_armor", "head", "map", "shovel", "boots", "_book", "bed",
 		"stew", "soup", "pattern", "_bucket", "_minecart", "_a_stick",
 		"_anvil", "gold", "boat", "shulker_box", "bell", "void", "command",
-		"skull"
+		"skull", "_cake", "gilded", "_wall_"
 	]
 	whitelist_fuzzy = [
 		"apple", "carrot", "iron_nugget", "raw_iron"
@@ -154,12 +196,15 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 		]
 	}
 	item_counts_fuzzy = {
+		32: [
+			"_furnace",
+		],
 		16: [
 			"ender_pearl", "snowball", "bucket", "honey_bottle",
 			"_banner", "_sign", "beacon", "nether_star", "end_crystal",
 			"armor_stand", "redstone_block", "iron_block", "ender_chest",
 			"_ore", "name_tag", "phantom_membrane", "respawn_anchor",
-			"wither_rose"
+			"wither_rose", "sculk_"
 		],
 		8: [
 			"conduit", "lapis_block", "emerald_block", "diamond_block",
@@ -207,11 +252,11 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 				log("Banned (unobtainable)", "unobtainable")
 				items.pop(item_name)
 				break
-			if item_data.id == banned_item:
+			if banned_item and item_data.id == banned_item:
 				log("Banned (blacklist)", banned_item)
 				items.pop(item_name)
 				break
-			if banned_item_fuzzy in item_data.id:
+			if banned_item_fuzzy and banned_item_fuzzy in item_data.id:
 				log("Banned (blacklist_fuzzy)", banned_item_fuzzy)
 				items.pop(item_name)
 				break
@@ -258,12 +303,12 @@ def write_item_to_json_file(item: Item, path: str = "."):
 
 
 def main():
-	url = "https://joakimthorsen.github.io/MCPropertyEncyclopedia/data/item_data.json"
+	# url = "https://joakimthorsen.github.io/MCPropertyEncyclopedia/data/item_data.json"
+	url = "https://joakimthorsen.github.io/MCPropertyEncyclopedia/data/block_data_experimental.json"
 	minecraft_items = get_minecraft_items(url)
 	filtered_items = filter_items(minecraft_items.copy())
 	# print(minecraft_items)
-	print(len(minecraft_items))
-	print(len(filtered_items))
+	print(f"{len(filtered_items)} / {len(minecraft_items)} items are valid for potato duplication")
 	# print(filtered_items["Emerald"])
 	# print(filtered_items["Ender Pearl"])
 	# print(filtered_items["Beacon"])
@@ -273,9 +318,9 @@ def main():
 	folder = "dump/data/minecraft/recipe/potato_duplication"
 	create_folder(folder)
 	for _, item in filtered_items.items():
-		print(item)
+		#print(item)
 		write_item_to_json_file(item, folder)
-	zip_folder(folder.split("/", maxsplit=1)[0], "potato_duping_datapack_v2.zip")
+	zip_folder(folder.split("/", maxsplit=1)[0], "potato_duping_datapack_v107.zip")
 
 
 

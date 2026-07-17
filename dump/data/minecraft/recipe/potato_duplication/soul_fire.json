@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:soul_fire"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:soul_fire",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

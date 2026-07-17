@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:pumpkin_stem"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:pumpkin_stem",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:oxidized_copper_golem_statue"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:oxidized_copper_golem_statue",
+        "count": 64
+    },
+    "group": "potato_duplication"
+}

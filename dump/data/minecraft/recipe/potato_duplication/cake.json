@@ -10,8 +10,8 @@
         }
     ],
     "result": {
-        "item": "minecraft:cake",
-        "count": null
+        "id": "minecraft:cake",
+        "count": 64
     },
     "group": "potato_duplication"
 }

@@ -1,0 +1,17 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:calibrated_sculk_sensor"
+        },
+        {
+            "item": "minecraft:poisonous_potato",
+            "count": 1
+        }
+    ],
+    "result": {
+        "id": "minecraft:calibrated_sculk_sensor",
+        "count": 16
+    },
+    "group": "potato_duplication"
+}
