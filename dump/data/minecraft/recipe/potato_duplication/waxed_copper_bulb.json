@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:waxed_copper_bulb"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:waxed_copper_bulb",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:waxed_copper_bulb",

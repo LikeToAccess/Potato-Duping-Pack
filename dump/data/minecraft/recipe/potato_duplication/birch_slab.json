@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:birch_slab"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:birch_slab",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:birch_slab",

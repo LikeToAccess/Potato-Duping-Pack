@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pale_hanging_moss"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pale_hanging_moss",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pale_hanging_moss",

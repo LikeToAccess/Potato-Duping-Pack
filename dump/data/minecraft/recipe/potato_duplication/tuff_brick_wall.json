@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:tuff_brick_wall"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:tuff_brick_wall",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:tuff_brick_wall",

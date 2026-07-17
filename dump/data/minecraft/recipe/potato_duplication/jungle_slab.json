@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:jungle_slab"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:jungle_slab",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:jungle_slab",

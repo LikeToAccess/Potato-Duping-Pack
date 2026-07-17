@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pale_moss_carpet"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pale_moss_carpet",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pale_moss_carpet",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:acacia_stairs"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:acacia_stairs",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:acacia_stairs",

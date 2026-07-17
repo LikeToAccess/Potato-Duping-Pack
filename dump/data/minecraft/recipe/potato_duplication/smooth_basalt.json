@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:smooth_basalt"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:smooth_basalt",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:smooth_basalt",

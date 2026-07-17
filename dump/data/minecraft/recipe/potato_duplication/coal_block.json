@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:coal_block"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:coal_block",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:coal_block",

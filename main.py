@@ -103,9 +103,9 @@ def get_minecraft_items(url) -> dict[str, Item]:
 	for item in key_list:
 		if item not in block_ids:
 			continue
-		
+
 		namespace_id = block_ids[item]
-		
+
 		if namespace_id in item_info:
 			stackability, obtainable = item_info[namespace_id]
 		else:
@@ -122,7 +122,14 @@ def get_minecraft_items(url) -> dict[str, Item]:
 					"minecraft:water", "minecraft:lava", "minecraft:moving_piston", 
 					"minecraft:piston_head", "minecraft:frosted_ice", "minecraft:tripwire", 
 					"minecraft:nether_portal", "minecraft:end_portal", "minecraft:end_gateway", 
-					"minecraft:fire", "minecraft:soul_fire"
+					"minecraft:fire", "minecraft:soul_fire",
+					"minecraft:bamboo_sapling", "minecraft:sweet_berry_bush",
+					"minecraft:torchflower_crop", "minecraft:beetroots", "minecraft:carrots",
+					"minecraft:potatoes", "minecraft:cave_vines", "minecraft:cave_vines_plant",
+					"minecraft:kelp_plant", "minecraft:lava_cauldron", "minecraft:water_cauldron",
+					"minecraft:powder_snow_cauldron", "minecraft:redstone_wire",
+					"minecraft:twisting_vines_plant", "minecraft:bubble_column",
+					"minecraft:pitcher_crop", "minecraft:cocoa", "minecraft:weeping_vines_plant"
 				]
 			):
 				obtainable = False
@@ -169,7 +176,7 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 		"barrier", "debug_stick", "structure_block", "ancient_debris",
 		"firework_rocket", "firework_star", "moving_piston", "piston_head",
 		"frosted_ice", "tripwire", "fire", "portal", "void_air", "cave_air",
-		"heavy_core", "sniffer_egg", "vault"
+		"heavy_core", "sniffer_egg", "vault", "tall_seagrass", "powder_snow"
 	]
 	blacklist_fuzzy = [
 		"netherite", "music_disc", "potion", "_helmet",
@@ -220,14 +227,43 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 
 	for item_name, item_data in items.copy().items():
 		def log(status, reason): print(f"{status}: '{item_name} ({item_data.id})' reason: '{reason}'")
-		if item_data.id not in blacklist \
-			and not is_valid_fuzzy(item_data.id, {None:blacklist_fuzzy}) \
-			and (is_valid(item_data.id, item_counts) \
-			or is_valid_fuzzy(
-					item_data.id,
-					item_counts_fuzzy,
-					item_costs_fuzzy,
-					{None:whitelist_fuzzy})):
+		
+		# Check blacklist
+		if item_data.id in blacklist:
+			log("Banned (blacklist)", item_data.id)
+			items.pop(item_name)
+			continue
+			
+		# Check blacklist_fuzzy
+		is_banned_fuzzy = False
+		for banned_item_fuzzy in blacklist_fuzzy:
+			if banned_item_fuzzy in item_data.id:
+				log("Banned (blacklist_fuzzy)", banned_item_fuzzy)
+				items.pop(item_name)
+				is_banned_fuzzy = True
+				break
+		if is_banned_fuzzy:
+			continue
+			
+		# Check obtainable
+		if not item_data.obtainable:
+			log("Banned (unobtainable)", "unobtainable")
+			items.pop(item_name)
+			continue
+			
+		# Check stackability
+		if item_data.stackability == 1:
+			log("Banned (unstackable)", "unstackable")
+			items.pop(item_name)
+			continue
+
+		# Process whitelist/custom stackability and costs
+		if is_valid(item_data.id, item_counts) or is_valid_fuzzy(
+			item_data.id,
+			item_counts_fuzzy,
+			item_costs_fuzzy,
+			{None:whitelist_fuzzy}
+		):
 			for item_cost, _items in item_costs_fuzzy.items():
 				for _item in _items:
 					if _item in item_data.id:
@@ -242,29 +278,30 @@ def filter_items(items: dict[str, Item]) -> dict[str, Item]:
 					if _item in item_data.id:
 						items[item_name]["stackability"] = item_count
 						break
-			continue
-		for banned_item, banned_item_fuzzy in zip_longest(blacklist, blacklist_fuzzy):
-			if item_data.stackability == 1:
-				log("Banned (unstackable)", "unstackable")
-				items.pop(item_name)
-				break
-			if not item_data.obtainable:
-				log("Banned (unobtainable)", "unobtainable")
-				items.pop(item_name)
-				break
-			if banned_item and item_data.id == banned_item:
-				log("Banned (blacklist)", banned_item)
-				items.pop(item_name)
-				break
-			if banned_item_fuzzy and banned_item_fuzzy in item_data.id:
-				log("Banned (blacklist_fuzzy)", banned_item_fuzzy)
-				items.pop(item_name)
-				break
 	return items
 
 def create_folder(folder_name: str):
 	if not os.path.isdir(folder_name):
 		os.makedirs(folder_name)
+
+def clear_folder(path: str):
+	if os.path.exists(path):
+		for root, dirs, files in os.walk(path, topdown=False):
+			for file in files:
+				os.remove(os.path.join(root, file))
+			for dir in dirs:
+				os.rmdir(os.path.join(root, dir))
+
+def write_pack_mcmeta(path: str):
+	data = {
+		"pack": {
+			"min_format": 107,
+			"max_format": 107,
+			"description": "Poisonous potato custom crafting pack."
+		}
+	}
+	with open(os.path.join(path, "pack.mcmeta"), "w", encoding="utf8") as file:
+		json.dump(data, file, indent=4)
 
 def zip_folder(folder_path, zip_path):
     """Zips the contents of a folder into a zip file."""
@@ -279,18 +316,17 @@ def zip_folder(folder_path, zip_path):
 def write_item_to_json_file(item: Item, path: str = "."):
 	filename = item.id +".json"
 	path = os.path.join(path, filename)
-	# print(path)
+	
+	ingredients = [item.namespace_id]
+	for _ in range(item.cost):
+		ingredients.append("minecraft:poisonous_potato")
+		
+	if len(ingredients) > 9:
+		return
+
 	data = {
 		"type": "crafting_shapeless",
-		"ingredients": [
-			{
-				"item": item.namespace_id
-			},
-			{
-				"item": "minecraft:poisonous_potato",
-				"count": item.cost
-			}
-		],
+		"ingredients": ingredients,
 		"result": {
 			"id": item.namespace_id,
 			"count": item.stackability
@@ -315,8 +351,14 @@ def main():
 	# print(filtered_items["Block of Emerald"])
 	# print(filtered_items["Warden Spawn Egg"])
 	# print(filtered_items["Sponge"])
+	
+	clear_folder("dump")
+	
 	folder = "dump/data/minecraft/recipe/potato_duplication"
 	create_folder(folder)
+	
+	write_pack_mcmeta("dump")
+	
 	for _, item in filtered_items.items():
 		#print(item)
 		write_item_to_json_file(item, folder)
@@ -326,3 +368,4 @@ def main():
 
 if __name__ == "__main__":
 	main()
+

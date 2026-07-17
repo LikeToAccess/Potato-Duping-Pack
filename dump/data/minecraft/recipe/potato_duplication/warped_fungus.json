@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:warped_fungus"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:warped_fungus",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:warped_fungus",

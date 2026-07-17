@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:polished_diorite_stairs"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:polished_diorite_stairs",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:polished_diorite_stairs",

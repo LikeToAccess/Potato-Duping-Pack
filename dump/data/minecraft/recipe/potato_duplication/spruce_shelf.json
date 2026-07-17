@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:spruce_shelf"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:spruce_shelf",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:spruce_shelf",

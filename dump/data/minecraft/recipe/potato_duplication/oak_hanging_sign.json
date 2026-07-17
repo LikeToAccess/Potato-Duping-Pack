@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:oak_hanging_sign"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:oak_hanging_sign",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:oak_hanging_sign",

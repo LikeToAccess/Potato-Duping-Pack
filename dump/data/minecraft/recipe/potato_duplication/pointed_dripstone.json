@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pointed_dripstone"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pointed_dripstone",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pointed_dripstone",

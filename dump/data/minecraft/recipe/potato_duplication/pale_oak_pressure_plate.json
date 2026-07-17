@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pale_oak_pressure_plate"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pale_oak_pressure_plate",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pale_oak_pressure_plate",

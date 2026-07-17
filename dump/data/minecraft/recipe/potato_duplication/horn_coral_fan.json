@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:horn_coral_fan"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:horn_coral_fan",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:horn_coral_fan",

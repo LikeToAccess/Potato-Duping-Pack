@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:spore_blossom"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:spore_blossom",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:spore_blossom",

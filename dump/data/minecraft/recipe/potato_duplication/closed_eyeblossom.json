@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:closed_eyeblossom"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:closed_eyeblossom",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:closed_eyeblossom",

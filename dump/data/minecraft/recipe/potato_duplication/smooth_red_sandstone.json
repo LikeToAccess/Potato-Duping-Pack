@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:smooth_red_sandstone"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:smooth_red_sandstone",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:smooth_red_sandstone",

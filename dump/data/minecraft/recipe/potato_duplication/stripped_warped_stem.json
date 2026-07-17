@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:stripped_warped_stem"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:stripped_warped_stem",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:stripped_warped_stem",

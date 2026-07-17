@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pumpkin"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pumpkin",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pumpkin",

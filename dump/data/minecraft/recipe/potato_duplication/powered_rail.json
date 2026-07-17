@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:powered_rail"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:powered_rail",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:powered_rail",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:magenta_carpet"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:magenta_carpet",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:magenta_carpet",

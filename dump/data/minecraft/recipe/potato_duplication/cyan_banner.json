@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:cyan_banner"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:cyan_banner",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:cyan_banner",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:exposed_copper_chain"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:exposed_copper_chain",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:exposed_copper_chain",

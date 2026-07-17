@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:crimson_fungus"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:crimson_fungus",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:crimson_fungus",

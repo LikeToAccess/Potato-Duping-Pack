@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:deepslate"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:deepslate",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:deepslate",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:rooted_dirt"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:rooted_dirt",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:rooted_dirt",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:chiseled_copper"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:chiseled_copper",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:chiseled_copper",

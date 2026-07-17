@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:quartz_block"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:quartz_block",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:quartz_block",

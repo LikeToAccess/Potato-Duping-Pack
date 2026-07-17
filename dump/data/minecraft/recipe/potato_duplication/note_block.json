@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:note_block"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:note_block",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:note_block",

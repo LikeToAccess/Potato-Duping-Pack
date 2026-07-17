@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:loom"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:loom",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:loom",

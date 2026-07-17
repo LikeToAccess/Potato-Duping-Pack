@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:jack_o_lantern"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:jack_o_lantern",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:jack_o_lantern",

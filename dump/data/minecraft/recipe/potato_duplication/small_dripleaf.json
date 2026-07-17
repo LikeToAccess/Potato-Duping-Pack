@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:small_dripleaf"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:small_dripleaf",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:small_dripleaf",

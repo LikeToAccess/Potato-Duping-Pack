@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:suspicious_gravel"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:suspicious_gravel",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:suspicious_gravel",

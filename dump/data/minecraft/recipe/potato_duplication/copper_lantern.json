@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:copper_lantern"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:copper_lantern",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:copper_lantern",

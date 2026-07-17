@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:twisting_vines"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:twisting_vines",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:twisting_vines",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:lime_concrete"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:lime_concrete",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:lime_concrete",

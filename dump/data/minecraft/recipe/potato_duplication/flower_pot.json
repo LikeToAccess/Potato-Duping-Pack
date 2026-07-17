@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:flower_pot"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:flower_pot",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:flower_pot",

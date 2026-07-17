@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:activator_rail"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:activator_rail",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:activator_rail",

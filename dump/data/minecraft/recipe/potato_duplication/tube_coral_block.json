@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:tube_coral_block"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:tube_coral_block",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:tube_coral_block",

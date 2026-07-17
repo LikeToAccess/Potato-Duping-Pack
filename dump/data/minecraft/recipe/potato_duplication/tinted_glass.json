@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:tinted_glass"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:tinted_glass",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:tinted_glass",

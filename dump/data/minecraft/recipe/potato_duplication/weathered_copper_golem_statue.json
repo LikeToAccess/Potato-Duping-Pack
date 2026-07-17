@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:weathered_copper_golem_statue"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:weathered_copper_golem_statue",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:weathered_copper_golem_statue",

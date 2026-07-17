@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:creaking_heart"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:creaking_heart",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:creaking_heart",

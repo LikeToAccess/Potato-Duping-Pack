@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:polished_andesite"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:polished_andesite",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:polished_andesite",

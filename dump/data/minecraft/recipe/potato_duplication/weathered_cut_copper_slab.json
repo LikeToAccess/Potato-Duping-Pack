@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:weathered_cut_copper_slab"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:weathered_cut_copper_slab",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:weathered_cut_copper_slab",

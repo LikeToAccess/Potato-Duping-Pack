@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:tall_dry_grass"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:tall_dry_grass",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:tall_dry_grass",

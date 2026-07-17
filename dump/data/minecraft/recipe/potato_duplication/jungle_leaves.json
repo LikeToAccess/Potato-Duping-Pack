@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:jungle_leaves"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:jungle_leaves",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:jungle_leaves",

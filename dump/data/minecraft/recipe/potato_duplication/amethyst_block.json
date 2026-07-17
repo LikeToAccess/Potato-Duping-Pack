@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:amethyst_block"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:amethyst_block",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:amethyst_block",

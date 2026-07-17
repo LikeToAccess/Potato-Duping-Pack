@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:acacia_slab"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:acacia_slab",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:acacia_slab",

@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:fletching_table"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:fletching_table",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:fletching_table",

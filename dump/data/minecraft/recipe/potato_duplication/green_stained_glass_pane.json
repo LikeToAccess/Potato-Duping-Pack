@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:green_stained_glass_pane"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:green_stained_glass_pane",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:green_stained_glass_pane",

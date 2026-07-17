@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:blackstone_stairs"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:blackstone_stairs",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:blackstone_stairs",

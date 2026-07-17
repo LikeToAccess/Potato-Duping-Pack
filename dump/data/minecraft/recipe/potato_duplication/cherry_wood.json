@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:cherry_wood"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:cherry_wood",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:cherry_wood",

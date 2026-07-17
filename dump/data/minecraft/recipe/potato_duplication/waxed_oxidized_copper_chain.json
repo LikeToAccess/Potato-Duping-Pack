@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:waxed_oxidized_copper_chain"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:waxed_oxidized_copper_chain",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:waxed_oxidized_copper_chain",

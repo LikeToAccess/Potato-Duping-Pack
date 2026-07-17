@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:prismarine"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:prismarine",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:prismarine",

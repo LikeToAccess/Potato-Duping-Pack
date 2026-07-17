@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:barrel"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:barrel",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:barrel",

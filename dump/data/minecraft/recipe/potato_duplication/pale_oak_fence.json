@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:pale_oak_fence"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:pale_oak_fence",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:pale_oak_fence",

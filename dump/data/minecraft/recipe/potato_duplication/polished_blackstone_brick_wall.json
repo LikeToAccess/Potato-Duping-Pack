@@ -1,13 +1,8 @@
 {
     "type": "crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:polished_blackstone_brick_wall"
-        },
-        {
-            "item": "minecraft:poisonous_potato",
-            "count": 1
-        }
+        "minecraft:polished_blackstone_brick_wall",
+        "minecraft:poisonous_potato"
     ],
     "result": {
         "id": "minecraft:polished_blackstone_brick_wall",
